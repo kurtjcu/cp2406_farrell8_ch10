@@ -6,10 +6,10 @@ public class DebugTen4
    {
       int id = 12241;
       String name = "Franklin";
-      double credit = 1000.00;
-      double purchase = 1325.77;
+      double credit = 1000.00d;
+      double purchase = 1325.77d;
       DebugCustomerMakingPurchase cust = new
-         DebugCustomerMakingPurchase(id, credit, name, purchase);
+         DebugCustomerMakingPurchase(id, name, credit, purchase);
       cust.display();
    }
 }
